@@ -1,0 +1,29 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.inputWrapper{
+	margin: 2% 2% 2% 10%;
+	padding: 1%;
+	width: 425px;
+	background-color: #D7E7F0;
+	border: 2px solid #F0D29B;
+	-webkit-box-shadow: 5px 5px 5px #D9D9D9;
+		    box-shadow: 5px 5px 5px #D9D9D9;	
+}
+li{
+	display: inline;
+}
+#map-canvas{
+	width: 90%;
+	height: 450px;
+	margin: 0 auto;
+	border: 5px solid #30743D;
+	-webkit-box-shadow: 15px 15px 15px #D9D9D9;
+		    box-shadow: 15px 15px 15px #D9D9D9;	
+}
+footer{
+	width: 800px;
+	margin: 0 auto;
+	color:#767B7B
+}

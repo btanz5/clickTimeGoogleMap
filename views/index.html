@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Google Maps App</title>
+	<link rel="stylesheet" href="../styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>
+</head>
+<body>
+	<div class="inputWrapper">
+		<input type="text" class="addStopVal" size='30' placeholder='Input A Stop On The Route'/>
+		<button class='addStop'>Add Stop</button>	
+		<ul>
+			<li><input type="radio" name="transportOpt" value="DRIVING">Driving</li>
+			<li><input type="radio" name="transportOpt" value="WALKING">Walking</li>
+			<li><input type="radio" name="transportOpt" value="BICYCLING">Biking</li>
+			<li><input type="radio" name="transportOpt" value="TRANSIT">Public Transportation</li>
+		</ul>
+		<button class='showRoute'>Show Route</button>
+		<button class='toggleTraffic'>Traffic</button>
+	</div>
+
+	<div id='map-canvas'></div>
+
+	<footer>
+		<p>Site Designed and Developed by Ben Tansey</p>
+	</footer>
+	<script type="text/javascript" src="../mapApp.js"></script>	
+</body>
+</html>

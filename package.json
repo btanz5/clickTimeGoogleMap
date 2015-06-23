@@ -1,0 +1,15 @@
+{
+  "name": "google-maps-app",
+  "version": "1.0.0",
+  "description": "This is a simple google maps application that allows the user to plot stops inbetween their current location and ClickTimes office in San Francisco, Ca",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.0",
+    "hogan-express": "^0.5.2"
+  }
+}
